@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+    
+    /*se cambio a wrap menu-container*/
+    .menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /* se cambio a margin top de 85 */
+    .aling-full-tittle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin-top: 85%;
+        justify-content: center;
+    }
+}

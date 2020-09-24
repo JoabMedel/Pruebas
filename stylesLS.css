@@ -1,0 +1,38 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .icon-header {
+        width: 3em;
+        height: 3em;
+        color: rgb(73, 73, 73);
+        margin-top: 15%;
+    }
+    .container-header{
+        background-color: rgb(143, 141, 81);
+        color: rgb(43, 43, 43);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 9;
+        position: fixed;
+        font-size: 9pt;
+    }
+    h1 {
+        font-size: 30pt;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 20pt;
+        font-weight: bold;
+        color: rgb(143, 141, 81);
+    }
+    .aling-full-tittle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin-top: 25%;
+        justify-content: center;
+    }
+}
